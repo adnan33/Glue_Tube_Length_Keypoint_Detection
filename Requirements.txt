@@ -1,0 +1,8 @@
+pytorch-lightning==1.5.10
+torchsummary==1.5.1
+torch==1.10.0
+albumentations==1.1.0
+opencv-python==4.5.5.62
+matplotlib==3.2.2
+numpy==1.21.5
+scikit-learn==1.0.2
