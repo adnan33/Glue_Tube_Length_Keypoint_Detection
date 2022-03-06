@@ -22,7 +22,7 @@ A simple model with:
 1. Three (3) **Conv2D** layers
 2. **ReLU** Activation and **MaxPooling** in every layer
 3. Two (2) **fully-connected** layers, and **Dropout**  to prevent overfitting.
-![image](images/model_structure.JPG)
+![image](images/model_structure.jpg)
 
 ### Hyperparameters
 BatchSize, Epochs, Loss & Optimization Functions(using **GPU**)
