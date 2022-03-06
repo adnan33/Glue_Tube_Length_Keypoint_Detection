@@ -47,6 +47,10 @@ After training the model for 100 epochs we got the following results:
 - utils.py
 - Notebook Glue_tube_length_by_keypoint_detection.ipynb
 
+### DL Frameworks
+- Pytorch 
+- Pytorch Lightning
+
 ### Tensorboard monitoring
 
 you can use tensorboard for monitoring the training. Use the following command after starting training. \
