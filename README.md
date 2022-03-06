@@ -49,5 +49,5 @@ After training the model for 100 epochs we got the following results:
 
 ### Tensorboard monitoring
 
-you can use tensorboard for monitoring the training. Use the following command after starting training.
+you can use tensorboard for monitoring the training. Use the following command after starting training. \
 ```tensorboard --logdir ./model/logs```
