@@ -31,10 +31,9 @@ checkpoint_callback = ModelCheckpoint(dirpath=ckptdir,
                                       monitor = "val_loss",
                                       filename='{epoch}-{val_loss:.2f}')
 
-gpu_monitor_callback = DeviceStatsMonitor()
 progressbar_callback = TQDMProgressBar(refresh_rate= 3)
 lr_monitor_callback = LearningRateMonitor()
-callbacks = [lr_monitor_callback, gpu_monitor_callback,progressbar_callback,checkpoint_callback]
+callbacks = [lr_monitor_callback,progressbar_callback,checkpoint_callback]
 
 ## Configuring the trainer for pytorch lightning
 if torch.cuda.is_available():
