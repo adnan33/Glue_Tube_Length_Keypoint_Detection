@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-## Glue Tube Length Prediction Using KeyPoint Detection[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1z5imf5AMa3Fq0oEYX4L6Tt3H051gDube/view?usp=sharing)
-=======
 ## Glue Tube Length Prediction Using KeyPoint Detection [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1z5imf5AMa3Fq0oEYX4L6Tt3H051gDube/view?usp=sharing)
->>>>>>> 3c58f249b3d3381a5b3214de8816e45175b1745a
 
 This project attempts to predict glue tube length from keypoint detection of tube head and tail.
 As most of the images have two tubes present in the image, used model has **eight(8)** nodes in the logit layer.
