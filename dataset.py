@@ -91,7 +91,7 @@ class DatasetFromSubset(Dataset):
         return image, keypoint
 
     def __len__(self):
-        return len(self.subset.images)
+        return len(self.subset)
 
     ## ImageFolder like __repr__ function
     def __repr__(self):

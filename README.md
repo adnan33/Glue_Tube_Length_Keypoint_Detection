@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Glue Tube Length Prediction Using KeyPoint Detection[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1z5imf5AMa3Fq0oEYX4L6Tt3H051gDube/view?usp=sharing)
+=======
+## Glue Tube Length Prediction Using KeyPoint Detection [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1z5imf5AMa3Fq0oEYX4L6Tt3H051gDube/view?usp=sharing)
+>>>>>>> 3c58f249b3d3381a5b3214de8816e45175b1745a
 
 This project attempts to predict glue tube length from keypoint detection of tube head and tail.
 As most of the images have two tubes present in the image, used model has **eight(8)** nodes in the logit layer.
@@ -21,7 +25,7 @@ A simple model with:
 1. Three (3) **Conv2D** layers
 2. **ReLU** Activation and **MaxPooling** in every layer
 3. Two (2) **fully-connected** layers, and **Dropout**  to prevent overfitting.
-![image](images/model_structure.JPG)
+![image](images/model_structure.jpg)
 
 ### Hyperparameters
 BatchSize, Epochs, Loss & Optimization Functions(using **GPU**)
@@ -52,5 +56,5 @@ After training the model for 100 epochs we got the following results:
 
 ### Tensorboard monitoring
 
-you can use tensorboard for monitoring the training. Use the following command after starting training.
+you can use tensorboard for monitoring the training. Use the following command after starting training. \
 ```tensorboard --logdir ./model/logs```
